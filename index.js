@@ -15,8 +15,8 @@ function decrement() {
 }
 function save() {
 
-    all = count + " - ";
-    allenterS.textContent = allenterS.textContent + all;
+//     all = count + " - ";
+//     allenterS.textContent = allenterS.textContent + all;
     let save = count;
     document.getElementById("save").innerText = "previes enteries: " + save2 + "-" + save1 + "-" + save;
     a = save1;
